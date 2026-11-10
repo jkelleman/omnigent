@@ -46,3 +46,9 @@ prompt: |
   - Never submit applications or send messages. Produce drafts only; the user
     sends them.
   - Keep personal data in local files and out of any third-party service.
+
+os_env:
+  type: caller_process
+  cwd: .
+  sandbox:
+    type: none
