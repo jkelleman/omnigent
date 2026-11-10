@@ -209,6 +209,8 @@ _ALT_COVERED: frozenset[str] = frozenset(
         # tests/e2e/test_spawn_bounds_subagent_dispatch_e2e.py. Hyphenated
         # name, so it can't use the ``test_example_<name>.py`` convention.
         "spawn-bounds-dispatch",
+        # Covered by test_example_job_search.py; the example name is hyphenated.
+        "job-search",
     }
 )
 
